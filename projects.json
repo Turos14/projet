@@ -1,0 +1,24 @@
+{
+  "user": "Turos14",
+  "exclude": ["projet"],
+  "overrides": {
+    "chess": { "description": "Jeu d'échecs jouable dans le navigateur." },
+    "Chess-relais": { "description": "Variante d'échecs « relais »." },
+    "Doomsday_decompte": { "description": "Compte à rebours Doomsday." },
+    "EDITH": { "description": "Projet EDITH (C++)." },
+    "EDITH.web": { "description": "Version web du projet EDITH." },
+    "mah-jong": { "description": "Jeu de Mah-jong dans le navigateur." },
+    "zelda": { "description": "Jeu d'aventure en TypeScript." }
+  },
+  "fallback": [
+    { "name": "beta", "default_branch": "main", "has_pages": true, "homepage": null, "language": "JavaScript", "description": null },
+    { "name": "chess", "default_branch": "main", "has_pages": true, "homepage": "https://chess-aab-b93e.vercel.app", "language": "JavaScript", "description": null },
+    { "name": "Chess-relais", "default_branch": "main", "has_pages": true, "homepage": null, "language": "HTML", "description": null },
+    { "name": "courses", "default_branch": "main", "has_pages": true, "homepage": "https://turos14.github.io/courses/", "language": "JavaScript", "description": "Mes Courses & Menus Collaboratifs — application web pour gérer ses recettes, planifier un calendrier de repas et générer des listes de courses." },
+    { "name": "Doomsday_decompte", "default_branch": "main", "has_pages": true, "homepage": "https://turos14.github.io/Doomsday_decompte/", "language": "JavaScript", "description": null },
+    { "name": "EDITH", "default_branch": "main", "has_pages": false, "homepage": null, "language": "C++", "description": null },
+    { "name": "EDITH.web", "default_branch": "main", "has_pages": true, "homepage": null, "language": "JavaScript", "description": null },
+    { "name": "mah-jong", "default_branch": "main", "has_pages": true, "homepage": null, "language": "JavaScript", "description": null },
+    { "name": "zelda", "default_branch": "main", "has_pages": true, "homepage": null, "language": "TypeScript", "description": null }
+  ]
+}

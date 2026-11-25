@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mes projets — Turos14</title>
+  <meta name="description" content="Présentation de mes projets GitHub : apps web, code source et téléchargements.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <img id="avatar" class="avatar" src="https://github.com/Turos14.png?size=160" alt="" width="80" height="80">
+      <div>
+        <h1>Mes projets</h1>
+        <p class="sub">Apps web, jeux et outils publiés sur
+          <a id="profile-link" href="https://github.com/Turos14" target="_blank" rel="noopener">GitHub</a>.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Rechercher un projet…" aria-label="Rechercher">
+      <div id="filters" class="filters" role="group" aria-label="Filtrer par langage"></div>
+    </div>
+
+    <p id="status" class="status">Chargement des projets…</p>
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>Données récupérées en direct depuis l'API GitHub.</span>
+  </footer>
+
+  <template id="card-tpl">
+    <article class="card">
+      <div class="card-head">
+        <h2 class="name"></h2>
+        <span class="lang"></span>
+      </div>
+      <p class="desc"></p>
+      <div class="meta"></div>
+      <div class="actions"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
